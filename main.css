@@ -9,12 +9,19 @@ body, html {
     margin: 0;
 }
 
+.navbar {
+    background-color: rgb(198, 205, 212);
+}
+
+
+
+
 .bg {
     /* The image used */
     background-image: url("./assets/images/S5_005.jpg");
 
     /* Full height */
-    height: 50%;
+    height:100%;
 
     /* Center and scale the image nicely */
     opacity: 0.75;
@@ -24,19 +31,5 @@ body, html {
 
     
 }
-
-.container {
-    margin-top: 50px;
-}
-
-.navbar {
-    background-color: lightslategray;
-}
-
-.nav-link {
-    color: white;
-}
-
-
 
 
