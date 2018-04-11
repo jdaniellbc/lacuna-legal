@@ -26,13 +26,13 @@ body, html {
 
 .lacunalogo {
 position: fixed;
-  width: 80%;
+  width: 60%;
   height: 100px;
   z-index: 15;
   top: 50%;
   left: 50%;
-  margin: -100px 0 0 -40%;
-  background: rgba(245, 244, 244, 0.6);
+  margin: -100px 0 0 -30%;
+  background: rgba(245, 244, 244, 0.7);
   /* border: 1px solid  rgba(27, 26, 26, 0.9);; */
   opacity: 30;
   padding: 20px;
@@ -40,20 +40,20 @@ position: fixed;
 
 .lacunadescription {
 position: fixed;
-  width: 80%;
+  width: 60%;
   min-height: 100px;
   z-index: 15;
   top: 50%;
   left: 50%;
-  margin: 0px 0 0 -40%;
+  margin: 0px 0 0 -30%;
   background: rgba(245, 244, 244, 0.6);
   border: 1px solid  rgba(99, 99, 99, 0.4);;
 
   
   opacity: 30;
-  padding: 20px;
+  padding: 30px;
 
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   
 }

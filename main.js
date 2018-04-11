@@ -1,6 +1,8 @@
 (function ($) {
     $(function () {
-        var skills = ["Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, ", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", "At vero eos et accusamus et iusto odio dignissimos", "text4"],
+        var skills = ["Lacuna Legal addresses the diverse needs of law firms in southern California. Great achievement periodically requires some outside expertise and Lacuna is designed to fill the gap with deep experience, careful attention to detail and commitment to the success of your project.", 
+        "Lacuna principal April Szabo has a well - earned reputation for drafting powerful, creative briefs for some of California’s most accomplished legal professionals. From her time as research attorney to LA Superior Court’s most prestigious judges and as an associate at Loeb & Loeb, LLP, April has developed a unique, effective writing style that incorporates her knowledge of judicial decision - making and high - stakes litigation. April researches and drafts a variety of documents for firms in southern California and welcomes the opportunity to discuss how her work can contribute to your firm’s success.", 
+            "With 17 years of employer defense to our name, Lacuna Legal provides businesses with a detailed, thorough approach to workplace compliance and litigation."],
             counter = skills.length - 1,
             previousSkill = $("#myGreetingSkills"),
             arraylength = skills.length - 1;
@@ -19,6 +21,6 @@
 
         setInterval(function () {
             display_skills();
-        }, 2000);
+        }, 6000);
     });
 })(jQuery);
