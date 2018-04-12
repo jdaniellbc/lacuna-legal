@@ -1,8 +1,4 @@
 
-/* #logo {
-    height: 75px;
-} */
-
 body, html {
     height: 100%;
     margin: 0;
@@ -21,17 +17,18 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* border-bottom: 1px solid  rgba(99, 99, 99, 0.4);; */
 }
 
 
 .lacunalogo {
 position: fixed;
-  width: 60%;
+  width: 80%;
   height: 100px;
   z-index: 15;
   top: 50%;
   left: 50%;
-  margin: -100px 0 0 -30%;
+  margin: -100px 0 0 -40%;
   background: rgba(245, 244, 244, 0.7);
   /* border: 1px solid  rgba(27, 26, 26, 0.9);; */
   opacity: 30;
@@ -40,22 +37,19 @@ position: fixed;
 
 .lacunadescription {
 position: fixed;
-  width: 60%;
+  width: 80%;
   min-height: 100px;
+  max-height: 320px;
   z-index: 15;
   top: 50%;
   left: 50%;
-  margin: 0px 0 0 -30%;
-  background: rgba(245, 244, 244, 0.6);
-  border: 1px solid  rgba(99, 99, 99, 0.4);;
-
-  
+  margin: 0px 0 0 -40%;
+  background: rgba(245, 244, 244, 0.9);
+  /* border: 1px solid  rgba(99, 99, 99, 0.4);; */
   opacity: 30;
-  padding: 30px;
-
-  text-align: left;
-  vertical-align: middle;
-  
+  padding: 20px;
+  text-align: left; 
+  overflow: auto;
 }
 
 img {
@@ -66,5 +60,3 @@ img {
     max-width: 350px;
     min-height: auto;
 }
-
-
