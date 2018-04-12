@@ -4,52 +4,35 @@ body, html {
     margin: 0;
 }
 
-.navbar {
-    background-color: rgb(198, 205, 212);
+.nocontent {
+    height: 100%;
 }
 
+.contenta {
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .bg {
-    background-image: url("./assets/images/S5_005.jpg");
+    background-image: url("./assets/images/20140720_165317_1.jpg");
     display: block;
     height: 50%;
     opacity: 0.75;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-bottom: 1px solid  rgba(99, 99, 99, 0.4);; */
 }
 
-
-.lacunalogo {
-position: fixed;
-  width: 80%;
-  height: 100px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0 0 -40%;
-  background: rgba(245, 244, 244, 0.7);
-  /* border: 1px solid  rgba(27, 26, 26, 0.9);; */
-  opacity: 30;
-  padding: 20px;
-}
-
-.lacunadescription {
-position: fixed;
-  width: 80%;
-  min-height: 100px;
-  max-height: 320px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-  margin: 0px 0 0 -40%;
-  background: rgba(245, 244, 244, 0.9);
-  /* border: 1px solid  rgba(99, 99, 99, 0.4);; */
-  opacity: 30;
-  padding: 20px;
-  text-align: left; 
-  overflow: auto;
+.log { 
+    background-color: rgba(245, 244, 244, 0.7);
+    min-height: 100px;
 }
 
 img {
@@ -60,3 +43,5 @@ img {
     max-width: 350px;
     min-height: auto;
 }
+
+
